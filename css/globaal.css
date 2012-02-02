@@ -1,0 +1,141 @@
+* CSS Document */
+/* HTML FIX */
+  header, section, nav, aside, section, article, footer 
+  {
+    display: block;
+  }
+  *
+  {
+    margin:0;
+    padding:0;
+  }
+  /***************** HTML TAG OPMAAK ***********************/
+  body
+  {
+    background:#fff;
+    background: url(../images/achtergrond.jpg) top repeat-x;
+    font: normal 1em verdana;
+  }
+  /***************** ID OPMAAK ****************************/
+  #container
+  {
+    width:925px; /* 725px */
+    margin:0 auto;    
+    overflow:hidden; /* important if floating is used. */
+  }
+  header
+  {
+    height: 375px;
+    width: 925px;
+    float:left;
+    display: inline;
+  }
+  #topheader
+  {
+    background: url(../images/header.jpg) top no-repeat;
+    height: 100px;
+    width: 925px;
+    float:left;
+    display: inline;
+  }
+  nav
+  {
+    height: 30px;
+    width: 925px;
+    float:left;
+    display: inline;
+    background: url(../images/menu.jpg) top repeat-x;
+    text-align: center;
+  }
+  nav ul
+  {
+    margin-top:0.313em;
+  }
+  nav li
+  {
+    display:inline;
+    padding:4px;
+    color: #fff;
+    font-size:0.8em;
+    font-weight:bold;
+  }
+  nav li a
+  {
+    font-size:1em;
+    font-weight:bold;
+    color: #fff;
+  }
+  #subheader
+  {
+    background: url(../images/subheader.jpg) top no-repeat;
+    height: 245px;
+    width: 675px;
+    float:left;
+    display: inline;
+  }
+  #rechtssub
+  {
+    background: url(../images/rechtssub.jpg) top no-repeat;
+    height: 245px;
+    width: 250px;
+    float: left;
+    display: inline;
+  }
+  section
+  {
+    width: 925px;
+    float: left;
+    display: inline;
+    background: #fff;
+  }
+  #content-left
+  {        
+    width: 675px;
+    float:left;
+    display:inline;
+  }
+  #content-right
+  {        
+    width: 250px;
+    float:left;
+    display:inline;
+    background: #fff;
+  }
+  article
+  {
+    width:925px;    
+    float:left;    
+    display:inline;
+  }
+  article hgroup h1
+  {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  article hgroup h2
+  {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  article p
+  {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  footer
+  {
+    border-top: #000 solid 1px;
+    width:925px;
+    float:left;
+    display:inline;
+    font-size: 0.8em;
+    color: #666;
+    text-align:center;
+  } 
+  .hidden
+  {
+    display:none;
+  }
